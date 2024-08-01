@@ -69,15 +69,19 @@ class sql_tables():
             GROUP BY userId
         """) as cursor:
             first_id = await cursor.fetchone()
-            if first_id is None:
-                return False
+        if first_id is None:
+            return False
+        else:
+            first_id = first_id[1]
         
         async with self._connection.execute("""
                 SELECT userId, COUNT(*) AS count_score from today_complete GROUP BY userId
             """) as cursor:
             scores = await cursor.fetchall()
+        logger.debug(f"----> {config['points']['first']}, {first_id}")
         await self._connection.execute("UPDATE scores SET score = score + ? WHERE userId = ?", (config['points']['first'], first_id))
         for user_score in scores:
+            logger.debug(f"-----> {user_score}")
             await self._connection.execute("UPDATE scores SET score = score + ? WHERE userId = ?", 
                 (config['points']['task'] + config['points']['repeat_task'] * (user_score[1] - 1), user_score[0])
             )

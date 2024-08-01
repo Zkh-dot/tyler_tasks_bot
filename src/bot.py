@@ -53,15 +53,20 @@ def stop_message(message):
 def message_reply(message):
     logger.info(f"{message.text} from {message.chat.id}")
     if message.text == "Посчитать" and is_admin(message):
-        async_to_sync(sql_model.calculate_score())
+        if not async_to_sync(sql_model.calculate_score()):
+            logger.info("calculated on empty queue")
         bot.send_message(message.chat.id, config['messages']['confirm'])
-        task = tasks.get()
-        for id in async_to_sync(sql_model.all_players()):
-            bot.send_message(id, f"Новое задание\n{task}")
+        if tasks.empty():
+            for id in config['admins']:
+                bot.send_message(id, config['messages']['empty_queue'])
+        else:
+            task = tasks.get()
+            for id in async_to_sync(sql_model.all_players()):
+                bot.send_message(id, f"Новое задание\n{task}")
         
     if message.text == "Выполнил":
         async_to_sync(sql_model.complete(message.chat.id))
-        bot.send_message(message.chat.id, config['messages']['confirm'])
+        bot.send_message(message.chat.id, config['messages']['counted'])
     
     if message.text == "Отменить выполненное":
         async_to_sync(sql_model.delete(message.chat.id))
@@ -76,6 +81,8 @@ def message_reply(message):
         
     if message.text.split()[0] == "Задание" and is_admin(message):
         tasks.put(' '.join(message.text.split()[1:]))
+        bot.send_message(message.chat.id, config['messages']['confirm'])
+        
         
         
     if message.text == "Сколько сегодня":
