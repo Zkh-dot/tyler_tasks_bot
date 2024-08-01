@@ -1,0 +1,17 @@
+{
+    "token": "",
+    "messages": {
+        "start": "start message",
+        "rools": "сообщение с обьяснением правил",
+        "counted": "задание засчитанно",
+        "confirm": "Считаю",
+        "welcome": "Добро пожаловать в"
+    },
+    "admins": [],
+    "db_name": "./scores.db", 
+    "points": {
+        "first": 10,
+        "task": 10, 
+        "repeat_task": 1
+    }
+}
