@@ -17,7 +17,7 @@ task = ""
 
 markup=types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup.add(types.KeyboardButton("Выполнил"))
-markup.add(types.KeyboardButton("Отменить выполненное"))
+# markup.add(types.KeyboardButton("Отменить выполненное"))
 markup.add(types.KeyboardButton("Рейтинг"))
 markup.add(types.KeyboardButton("Сколько сегодня"))
 

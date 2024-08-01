@@ -1,0 +1,10 @@
+2024-08-02 01:41:00,013 	 [INFO | models.py:30] > init models
+2024-08-02 01:41:00,013 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-02 01:41:06,894 	 [INFO | bot.py:54] > Посчитать from 361380081
+2024-08-02 01:41:12,433 	 [INFO | bot.py:54] > Сколько сегодня from 361380081
+2024-08-02 01:41:14,492 	 [INFO | bot.py:54] > Рейтинг from 361380081
+2024-08-02 01:44:59,789 	 [INFO | models.py:30] > init models
+2024-08-02 01:44:59,790 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-02 01:45:10,593 	 [WARNING | bot.py:43] > user 361380081 loged in
+2024-08-02 01:45:19,049 	 [INFO | bot.py:54] > Рейтинг from 361380081
+2024-08-02 01:45:20,871 	 [INFO | bot.py:54] > Сколько сегодня from 361380081

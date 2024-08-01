@@ -59,7 +59,7 @@ class sql_tables():
         return True
     
     async def users_score(self) -> list[list]:
-        async with self._connection.execute("SELECT userName, score FROM scores ORDER BY score") as cursor:
+        async with self._connection.execute("SELECT userName, score FROM scores ORDER BY score DESC") as cursor:
             return await cursor.fetchall()
     
     async def calculate_score(self) -> bool:
