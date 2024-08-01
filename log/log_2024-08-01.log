@@ -1,0 +1,61 @@
+2024-08-01 16:24:03,649 	 [INFO | models.py:30] > init models
+2024-08-01 16:24:03,650 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-01 16:24:49,486 	 [INFO | models.py:30] > init models
+2024-08-01 16:24:49,487 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-01 16:25:52,262 	 [INFO | models.py:30] > init models
+2024-08-01 16:25:52,263 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-01 16:28:39,348 	 [INFO | models.py:30] > init models
+2024-08-01 16:28:39,349 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-01 16:34:23,391 	 [INFO | models.py:30] > init models
+2024-08-01 16:34:23,393 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-01 16:35:21,621 	 [INFO | models.py:30] > init models
+2024-08-01 16:35:21,627 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-01 16:38:33,802 	 [INFO | models.py:30] > init models
+2024-08-01 16:38:33,803 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-01 16:39:15,370 	 [INFO | models.py:30] > init models
+2024-08-01 16:39:15,392 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-01 16:43:47,308 	 [INFO | models.py:30] > init models
+2024-08-01 16:43:47,310 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-01 16:44:26,771 	 [INFO | bot.py:47] > Выполнил from 361380081
+2024-08-01 16:44:48,927 	 [INFO | models.py:30] > init models
+2024-08-01 16:44:48,928 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-01 16:44:52,475 	 [INFO | bot.py:47] > /stop from 361380081
+2024-08-01 16:45:18,676 	 [INFO | models.py:30] > init models
+2024-08-01 16:45:18,677 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-01 16:45:55,346 	 [INFO | models.py:30] > init models
+2024-08-01 16:45:55,346 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-01 16:45:58,265 	 [INFO | bot.py:53] > Выполнил from 361380081
+2024-08-01 16:46:01,861 	 [INFO | bot.py:53] > Сколько сегодня from 361380081
+2024-08-01 16:47:30,399 	 [INFO | models.py:30] > init models
+2024-08-01 16:47:30,400 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-01 16:47:32,589 	 [DEBUG | bot.py:37] > 361380081 is True
+2024-08-01 16:47:55,661 	 [INFO | bot.py:54] > Посчитать from 361380081
+2024-08-01 16:47:58,990 	 [INFO | bot.py:54] > Рейтинг from 361380081
+2024-08-01 16:48:34,496 	 [INFO | bot.py:54] > Следующее задание тес from 361380081
+2024-08-01 16:48:49,931 	 [INFO | bot.py:54] > Задание 123 from 361380081
+2024-08-01 16:49:22,705 	 [INFO | bot.py:54] > Задание 1234 from 361380081
+2024-08-01 16:49:30,835 	 [INFO | bot.py:54] > Задание 12345 from 361380081
+2024-08-01 16:49:35,498 	 [INFO | bot.py:54] > Посчитать from 361380081
+2024-08-01 16:50:34,205 	 [INFO | models.py:30] > init models
+2024-08-01 16:50:34,206 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-01 16:50:39,976 	 [INFO | bot.py:54] > Задание 1 from 361380081
+2024-08-01 16:50:44,436 	 [INFO | bot.py:54] > Задание 2 from 361380081
+2024-08-01 16:50:48,113 	 [INFO | bot.py:54] > Задание 3 from 361380081
+2024-08-01 16:50:55,656 	 [INFO | bot.py:54] > Посчитать from 361380081
+2024-08-01 16:50:59,240 	 [INFO | bot.py:54] > Следующее задание from 361380081
+2024-08-01 16:51:18,144 	 [INFO | bot.py:54] > Следующее задание from 361380081
+2024-08-01 16:51:19,296 	 [INFO | bot.py:54] > Посчитать from 361380081
+2024-08-01 16:51:21,531 	 [INFO | bot.py:54] > Посчитать from 361380081
+2024-08-01 16:51:24,039 	 [INFO | bot.py:54] > Посчитать from 361380081
+2024-08-01 16:51:30,131 	 [INFO | bot.py:54] > Рейтинг from 361380081
+2024-08-01 16:51:32,530 	 [INFO | bot.py:54] > Сколько сегодня from 361380081
+2024-08-01 16:52:25,466 	 [INFO | models.py:30] > init models
+2024-08-01 16:52:25,467 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-01 16:52:28,137 	 [INFO | bot.py:54] > Посчитать from 361380081
+2024-08-01 16:52:30,306 	 [INFO | bot.py:54] > Сколько сегодня from 361380081
+2024-08-01 16:52:32,448 	 [INFO | bot.py:54] > Рейтинг from 361380081
+2024-08-01 16:54:15,182 	 [INFO | models.py:30] > init models
+2024-08-01 16:54:15,183 	 [INFO | models.py:34] > connect to sql ./scores.db
+2024-08-01 16:54:20,805 	 [DEBUG | bot.py:37] > 361380081 is admin
+2024-08-01 16:54:27,265 	 [INFO | bot.py:54] > Выполнил from 361380081
+2024-08-01 16:54:32,706 	 [INFO | bot.py:54] > Сколько сегодня from 361380081
